@@ -1,6 +1,6 @@
 'use strict'
 
-// función de seutp de base de datos
+// función de setup de base de datos
 const Sequelize = require('sequelize')
 let sequelize = null
 
