@@ -1,0 +1,27 @@
+{
+    "name": "platziverse-db",
+    "version": "1.0.0",
+    "description": "A simple IoT platform - DB module",
+    "main": "index.js",
+    "scripts": {
+        "lint": "standard"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CardonaJD/IoT-platform.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CardonaJD/IoT-platform/issues"
+    },
+    "homepage": "https://github.com/CardonaJD/IoT-platform#readme",
+    "devDependencies": {
+        "standard": "^12.0.1"
+    },
+    "dependencies": {
+        "pg": "^7.8.2",
+        "pg-hstore": "^2.3.2",
+        "sequelize": "^4.43.0"
+    }
+}
