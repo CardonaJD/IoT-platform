@@ -4,7 +4,7 @@
     "description": "A simple IoT platform - DB module",
     "main": "index.js",
     "scripts": {
-        "test": "SET DEBUG=platziverse:* && ava tests/ --verbose",
+        "test": "SET DEBUG=platziverse:* && nyc --reporter=lcov ava tests/ --verbose",
         "lint": "standard",
         "setup": "SET DB_PASS=foo SET DEBUG=platziverse:* && node setup.js"
     },
@@ -20,6 +20,7 @@
     "homepage": "https://github.com/CardonaJD/IoT-platform#readme",
     "devDependencies": {
         "ava": "^1.3.1",
+        "nyc": "^13.3.0",
         "sqlite3": "^4.0.6",
         "standard": "^12.0.1"
     },
